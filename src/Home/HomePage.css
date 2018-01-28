@@ -1,0 +1,77 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+hr{
+    margin-top:10px;
+    margin-bottom :20px;
+    border-top-width : 1200px;
+    border-top-style: solid;
+    border-top-color: #286090;
+    width : 1200px;    
+}
+#app {
+    min-height: 100%;
+    position: relative;
+}
+
+.page-content {
+    margin-top: 10em;
+    padding-bottom: 220px;
+}
+
+.page-content > .card {
+    margin-top: 10em;
+    padding-bottom: 220px;
+    
+}
+
+.card{
+    border-color: #f0ad4e;
+}
+.no-projects-message {
+    text-align: center;
+}
+
+.title-container {
+    position: relative;
+    margin-right: 15px;
+}
+
+.invisible {
+    display: none;
+}
+
+.dropdown {
+    margin-left: 800px;
+    margin-top : -60px;
+
+}
+.search{
+    position: relative;
+    float:right;
+}
+
+.fa{
+    margin-left : 10px;
+}
+
+.dropdown-menu {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.reset-filter {
+    margin-left: 1050px;
+    margin-top: -100px;
+}
+@media screen and (max-width: 767px) {
+    .page-content {
+        padding-bottom: 20px
+    }
+}

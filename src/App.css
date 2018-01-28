@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 24px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.card-content {
+  padding: 24px 1.5em; 
+}
+
+.card-title {
+  display: block;
+  margin-top: 10px; }
+
+.card-footer {
+  border-top: 1px solid #e5e5e5;
+  font-size: 0.875em;
+  padding: 16px 1.5em; 
+}
+
+.card-image {
+  position: relative; 
+}
+  .card-image img {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%; 
+  }
+  .card-image .card-title {
+    bottom: 0;
+    color: white;
+    left: 0;
+    padding: 0 1em;
+    position: absolute; 
+  }
+
+    .card {
+      -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+      -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.05);
+      border: none; 
+    }
+      .card .card-content {
+        padding: 40px; 
+  }
